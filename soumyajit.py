@@ -83,11 +83,11 @@ def login_in_zerodha(api_key, api_secret, user_id, user_pwd, totp_key):
 authkey = pyotp.TOTP('GYMMJVKPK5KC5YOI7LMDBA3SJ2ITRSX5') #Email Send
 authkey.now()
 
-api_key = "s47zgwnq0252k4wb"
-api_secret = "l0j5hwb2kjkdttd412ehnkwmo8gkcdps"
-totp_key = "GYMMJVKPK5KC5YOI7LMDBA3SJ2ITRSX5"
-user_id = "OCF329"
-user_pwd = "13131313"
+api_key = "XXX"
+api_secret = "XXX"
+totp_key = "XXX"
+user_id = "XXX"
+user_pwd = "XXX"
 
 kite = login_in_zerodha(api_key, api_secret, user_id, user_pwd, totp_key)
 print(kite.profile())
